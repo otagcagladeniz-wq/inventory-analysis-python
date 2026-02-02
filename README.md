@@ -1,19 +1,32 @@
-# Inventory Analysis with Python
+# Inventory & Sales Analysis System
 
-This project analyzes inventory and sales data using Python and Excel.
-It helps identify low-stock products and sales trends.
+This project is a Python-based inventory and sales analysis system that works with Excel files.
+
+## Features
+- Reads inventory data from an Excel file
+- Calculates total revenue
+- Identifies best-selling products
+- Detects low-stock products
+- Analyzes revenue by category
+- Visualizes category-based revenue using a bar chart
+- Exports an updated Excel report
 
 ## Technologies Used
 - Python
 - Pandas
+- Matplotlib
 - Excel
 
-## Features
-- Inventory level analysis
-- Sales data evaluation
-- Simple data visualization
-
 ## How to Run
-1. Open the project folder
-2. Run `inventory_analysis.py`
+1. Install required libraries:
+   pip install pandas matplotlib openpyxl
+
+2. Run the script:
+   python inventory_analysis.py
+
+## Output
+- Console-based analysis
+- Revenue bar chart
+- Generated Excel report (`inventory_report.xlsx`)
+
 
